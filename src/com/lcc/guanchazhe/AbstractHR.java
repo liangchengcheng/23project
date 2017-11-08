@@ -12,6 +12,7 @@ public abstract class AbstractHR {
     public void addTalent(ITalent talent) {
         allTalents.add(talent);
     }
+
     public void removeTalent(ITalent talent) {
         allTalents.remove(talent);
     }
